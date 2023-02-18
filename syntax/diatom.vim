@@ -6,6 +6,7 @@ syn keyword diatomKeyword until end if then else elsif in for do return break co
 syn keyword diatomBool true false
 syn keyword diatomSelf self
 syn keyword diatomBuiltIn print println assert panic unreachable todo
+syn keyword diatomType Int Float List String Iter Range Option 
 
 " Operator
 syn match diatomOperator '[=\$]'
@@ -36,3 +37,4 @@ hi def link diatomString      String
 hi def link diatomNumber      Number
 hi def link diatomIgnore      Ignore
 hi def link diatomBuiltIn     Identifier
+hi def link diatomType        Type
