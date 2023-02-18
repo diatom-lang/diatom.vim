@@ -10,7 +10,10 @@ syn keyword diatomBuiltIn print println assert panic unreachable todo
 " Operator
 syn match diatomOperator '[=\$]'
 syn match diatomOperator '<\-'
+syn match diatomOperator '::'
 syn match diatomIgnore '=='
+syn match diatomIgnore '<='
+syn match diatomIgnore '>='
 
 " Comment
 syn match diatomComment "--.*$"
