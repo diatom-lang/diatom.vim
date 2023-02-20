@@ -9,7 +9,8 @@ syn keyword diatomBuiltIn print println assert panic unreachable todo
 syn keyword diatomType Int Float List String Iter Range Option 
 
 " Operator
-syn match diatomOperator '[=\$]'
+syn match diatomOperator '='
+syn match diatomOperator '\.\.'
 syn match diatomOperator '<\-'
 syn match diatomOperator '::'
 syn match diatomIgnore '=='
