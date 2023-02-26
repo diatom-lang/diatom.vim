@@ -2,7 +2,7 @@
 " Language: Diatom
 
 " Keywords
-syn keyword diatomKeyword until end if then else elsif in for do return break continue loop def begin and or not require fn is
+syn keyword diatomKeyword until end if then else elsif in for do return break continue loop def begin and or not fn is import from as
 syn keyword diatomBool true false
 syn keyword diatomSelf self
 syn keyword diatomBuiltIn print println assert panic unreachable todo
